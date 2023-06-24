@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personel portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+        <nav class="navbar fixed-top">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about_me">ABOUT</a></li>
+                <li><a href="#skills_section">SKILLS</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#contact_container">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="description_profile">
+            <div class="detail">
+                <h1>Hi, I'm <span>Mahesh Anantharam</span></h1>
+                I'm a full web developer
+                <br>skilled in front-end, back-end development, and database
+                <br>management. HTML, CSS, Javascript, Python, Node.js, mySQL.
+                <br>Dedicated to delivering high-quality, user-centric web 
+                <br>applications.
+                </p>
+                <a href="#">Download Resume</a>
+            </div>
+            <div class="images">
+                <img src="images/smart_profile.png" class="boy">
+            </div>
+        </div>
+        <div class="about_me" id="about_me">
+            <h1>ABOUT ME</h1>
+            <br>
+            <br>
+            <p>a passionate mechanical background student with a strong inclination towards web development. I have honed my skills in MERN full-stack development, with expertise in HTML, CSS, JavaScript, Node.js, SQLite, and Python. <br>
+                <br>
+                While my educational background lies in mechanical engineering, my fascination for the digital realm led me to explore the world of web development. I enjoy leveraging my problem-solving abilities and logical thinking to create visually appealing and functional websites. <br>
+                <br>
+                I am proficient in building responsive user interfaces using HTML, CSS, and JavaScript, and I have experience working with the MERN stack, including frameworks like React.js and Express.js. Additionally, I have a solid understanding of backend development using Node.js and have worked with databases like SQLite. <br>
+                <br>
+                Beyond coding, I am a continuous learner and enjoy staying updated with the latest industry trends and technologies. I am eager to take on new challenges, collaborate with like-minded individuals, and contribute to meaningful projects. <br>
+                <br>
+                In my free time, you can find me exploring new technologies, experimenting with personal coding projects, and seeking inspiration from the vibrant web development community. <br>
+                <br>
+                I am excited to combine my mechanical background with my MERN full-stack development skills to create innovative and impactful solutions. I look forward to connecting with fellow developers and working on exciting projects together. <br>
+                </p>
+        </div>
+        <div class="skills_section" id="skills_section">
+            <h1>SKILLS</h1>
+            <br>
+            <br>
+                <ul class="skills_container">
+                    <li class="skill">Html</li>
+                    <li class="skill">Css</li>
+                    <li class="skill">Python</li>
+                    <li class="skill">JavaScript</li>
+                    <li class="skill">SQLite</li>
+                    <li class="skill">Git & Github</li>
+                    <li class="skill">Node.js</li>
+                    <li class="skill">Express.js</li>
+                </ul>
+        </div>
+        <div>
+            <div class="contact_container" id="contact_container">
+                <h1 class="form-heading">Contact Form</h1>
+                <form id="myForm">
+                  <div class="mb-3">
+                    <label for="name">First Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      required
+                      placeholder="mahesh"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="name">Last Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      required
+                      placeholder="anantharam"
+                    />
+                    
+                  </div>
+                  <div class="mb-3">
+                    <label for="email">Email</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="email"
+                      required
+                      placeholder="anantharammahesh05@gmail.com"
+                    />
+                    
+                  </div>
+                  <div>
+                    <label for="message">Message</label>
+                    <textarea
+                      cols="55"
+                      rows="5"
+                      class="form-control"
+                      id="message"
+                      required
+                      placeholder="Enter your message hear..."
+                    ></textarea>
+                  </div>
+                  <div class="button-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    
+                  </div>
+                </form>
+                </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
