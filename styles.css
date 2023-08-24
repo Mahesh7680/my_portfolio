@@ -37,6 +37,34 @@ nav ul li a:hover{
     color: red;
 }
 
+.navbar-toggler {
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.navbar-toggler-icon {
+    background-color: #333;
+    width: 25px;
+    height: 3px;
+}
+
+.navbar-collapse {
+    background-color: #fff;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+    display: none;
+}
+
+.navbar-collapse.show {
+    display: block;
+}
+
 .detail{
     margin-left: 8%;
     margin-top: 15%;
