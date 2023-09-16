@@ -10,48 +10,54 @@
     width: 100dvw;
     padding-bottom: 50px;
 }
+
 nav{
     height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .logo{
     height: 80px;
     width: 160px;
 }
+
 nav a:hover{
     color: red;
 }
+
 .navbar-collapse {
     margin-left: 20px;
 }
+
 .detail{
     margin-left: 8%;
-    margin-top: 10%;
+    margin-top: 5%;
+    
 }
+
 .detail h1{
     font-weight: bold;
     font-size: 50px;
     margin-bottom: 20px;
 }
+
 span{
     color: orange;
 }
+
 .detail a{
     background: #212121;
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
-    
     margin: 30px 0;
     border-radius: 5px;
 }
 
 .boy{
-    height: 350px;
+    height: 380px;
     margin-left: 10px;
 }
 
@@ -107,6 +113,7 @@ span{
         align-items: flex-end;
         margin-top: 20px; 
     }
+
     .smart_profile {
         max-width: 100%;
         border-radius: 50%;
@@ -115,12 +122,15 @@ span{
     }
 }
 
-/* profile image on large screens */
 @media (min-width : 767px) { 
     .description_profile{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 400px;
+        margin-right: 8%;
+        margin-top: 8%;
+
     }
 }
 
