@@ -119,6 +119,7 @@ span{
 @media (min-width : 767px) { 
     .description_profile{
         display: flex;
+        justify-content: space-between;
         align-items: center;
     }
 }
